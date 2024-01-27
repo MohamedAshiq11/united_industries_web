@@ -1,0 +1,106 @@
+nav {
+    padding: 10px 0;
+}
+
+nav .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .wrapper .logo .main {
+    font-size: 27px;
+    font-weight: 500;
+    color: #16213E;
+    position: relative;
+    font-family: 'Kanit';
+}
+
+nav .wrapper .logo .main::after {
+    top: 11px;
+    right: 8px;
+    content: "";
+    width: 23px;
+    height: 3px;
+    position: absolute;
+    background: var(--primary-color);
+
+}
+
+nav .wrapper .logo {
+    cursor: pointer;
+}
+
+nav .wrapper .logo .sub {
+    font-size: 19px;
+    font-weight: 400;
+    color: #16213E;
+    position: relative;
+    font-family: 'Kanit';
+}
+
+nav .wrapper .logo .sub::after {
+    top: 15px;
+    right: -4.5px;
+    content: "";
+    width: 3px;
+    height: 11px;
+    position: absolute;
+    background: var(--royal-blue);
+}
+
+nav .wrapper ul {
+    gap: 45px;
+    display: flex;
+    list-style: none;
+}
+
+nav .wrapper ul a {
+    font-size: 14px;
+    color: #00215B;
+    font-weight: 400;
+    position: relative;
+    font-family: 'Kanit';
+}
+
+nav .wrapper ul a::before {
+    left: 0;
+    width: 0;
+    opacity: 0;
+    content: "";
+    height: 3px;
+    bottom: -5px;
+    position: absolute;
+    background: #D2153D;
+    transition: all 0.3s ease;
+    transform: translateX(-1.5rem);
+}
+
+nav .wrapper ul a:hover::before {
+    opacity: 1;
+    width: 100%;
+    color: #D2153D;
+    transform: translateX(0);
+}
+
+nav .wrapper .menu {
+    display: none;
+}
+
+/* ------ Tablet Screen ------*/
+@media (max-width: 1040px) {}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    .wrapper {
+        margin-top: 20px;
+    }
+
+    nav .wrapper ul {
+        display: none;
+    }
+
+    nav .wrapper .menu {
+        display: block;
+    }
+}
