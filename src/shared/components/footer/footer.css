@@ -1,0 +1,202 @@
+footer .primary-color {
+    width: 850px;
+    padding: 50px 0;
+    align-items: center;
+    padding-left: 181px;
+}
+
+footer .secondary-color {
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+    padding-left: 77px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .primary-color .logo {
+    cursor: pointer;
+}
+
+footer .primary-color .logo .main {
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    font-family: 'Kanit';
+}
+
+footer .primary-color .logo .main::after {
+    top: 8px;
+    right: 7px;
+    content: "";
+    width: 18px;
+    height: 3px;
+    position: absolute;
+    background: white;
+
+}
+
+footer .primary-color .logo .sub {
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    font-family: 'Kanit';
+}
+
+footer .primary-color .logo .sub::after {
+    top: 15px;
+    width: 3px;
+    content: "";
+    height: 8px;
+    right: -4.5px;
+    position: absolute;
+    background: white;
+}
+
+footer .primary-color .call-us {
+    font-size: 10px;
+    color: #EBECEE;
+    margin-top: 30px;
+    font-weight: 300;
+    font-family: 'Kanit';
+    text-transform: uppercase;
+}
+
+footer .primary-color .phone-number {
+    color: white;
+    margin-top: 5px;
+    font-size: 27px;
+    font-weight: 600;
+    font-family: 'Kanit';
+}
+
+footer .primary-color .social-icons {
+    display: flex;
+    margin-top: 20px;
+}
+
+footer .primary-color .social-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin-right: 20px;
+    border-radius: 50%;
+    align-items: center;
+    background: white;
+    justify-content: center;
+}
+
+footer .primary-color .social-icons img {
+    height: 15px;
+    object-fit: cover;
+}
+
+footer .primary-color .social-icon .twitter {
+    padding: 2px;
+}
+
+footer .primary-color .social-icon .facebook {
+    padding: 0;
+    height: 23px;
+    padding-top: 5px;
+}
+
+footer .primary-color .social-icon .linked-in {
+    padding: 1px;
+}
+
+footer .primary-color .social-icon .youtube {
+    padding: 2px;
+}
+
+footer .caption {
+    font-size: 13px;
+    color: #EBECEE;
+    margin-top: 50px;
+    font-weight: 400;
+    margin-right: 80px;
+    font-family: 'Lato';
+}
+
+footer .secondary-color .content-container {
+    gap: 77px;
+}
+
+footer .secondary-color .quick-links .title {
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Kanit';
+}
+
+footer .secondary-color .quick-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer .secondary-color .quick-links ul li {
+    margin-bottom: 5px;
+}
+
+footer .secondary-color .quick-links ul li a {
+    font-size: 14px;
+    color: #D4D7DD;
+    font-weight: 400;
+    font-family: 'Lato';
+}
+
+footer .secondary-color .copyright {
+    font-size: 14px;
+    color: #D4D7DD;
+    font-weight: 400;
+    font-family: 'Lato';
+}
+
+/* ------ Tablet Screen ------*/
+@media (max-width: 1040px) {
+    footer .primary-color {
+        width: 850px;
+        padding-left: 100px;
+    }
+
+    footer .secondary-color {
+        padding-left: 66px;
+    }
+
+    footer .secondary-color .content-container {
+        gap: 66px;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    footer .content-container {
+        flex-direction: column;
+    }
+
+    footer .primary-color {
+        width: 100%;
+        padding-left: 66px;
+        padding-right: 11px;
+    }
+
+    footer .secondary-color {
+        padding-right: 11px;
+    }
+
+    footer .caption {
+        margin-right: 0;
+    }
+
+    footer .secondary-color .content-container {
+        gap: 33px;
+    }
+
+    footer .secondary-color .copyright {
+        margin-top: 50px;
+    }
+}

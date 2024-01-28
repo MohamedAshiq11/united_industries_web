@@ -1,0 +1,154 @@
+nav {
+    z-index: 600;
+    padding: 10px 0;
+}
+
+nav .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .wrapper .logo {
+    cursor: pointer;
+}
+
+nav .wrapper .logo .main {
+    font-size: 27px;
+    font-weight: 500;
+    color: #16213E;
+    position: relative;
+    font-family: 'Kanit';
+}
+
+nav .wrapper .logo .main::after {
+    top: 11px;
+    right: 8px;
+    content: "";
+    width: 23px;
+    height: 3px;
+    position: absolute;
+    background: var(--primary-color);
+
+}
+
+nav .wrapper .logo .sub {
+    font-size: 19px;
+    font-weight: 400;
+    color: #16213E;
+    position: relative;
+    font-family: 'Kanit';
+}
+
+nav .wrapper .logo .sub::after {
+    top: 15px;
+    width: 3px;
+    content: "";
+    height: 11px;
+    right: -4.5px;
+    position: absolute;
+    background: var(--royal-blue);
+}
+
+nav .wrapper ul {
+    gap: 45px;
+    display: flex;
+    list-style: none;
+}
+
+nav .wrapper ul a {
+    font-size: 14px;
+    color: #00215B;
+    font-weight: 400;
+    position: relative;
+    font-family: 'Kanit';
+}
+
+nav .wrapper ul a::before {
+    left: 0;
+    width: 0;
+    opacity: 0;
+    content: "";
+    height: 3px;
+    bottom: -5px;
+    position: absolute;
+    background: #D2153D;
+    transition: all 0.3s ease;
+    transform: translateX(-1.5rem);
+}
+
+nav .wrapper ul a:hover::before {
+    opacity: 1;
+    width: 100%;
+    color: #D2153D;
+    transform: translateX(0);
+}
+
+nav .wrapper .menu {
+    display: none;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+/* ------ Tablet Screen ------*/
+@media (max-width: 1040px) {}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    .wrapper {
+        margin-top: 20px;
+    }
+
+    nav .wrapper ul {
+        display: none;
+    }
+
+    nav .wrapper .menu {
+        display: block;
+        position: relative;
+    }
+
+    .mobile-nav {
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 600;
+        display: flex;
+        padding: 58px 32px;
+        position: absolute;
+        background: white;
+        transform: translateY(-100%);
+        transition: all 0.7s cubic-bezier(0.3, 0.96, 0.59, 0.95);
+    }
+
+    .mobile-nav-ative {
+        transform: translateY(0);
+    }
+
+    .mobile-nav img {
+        top: 32px;
+        right: 48px;
+        position: fixed;
+    }
+
+    .mobile-nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .mobile-nav ul li {
+        padding: 7px 0;
+    }
+
+    .mobile-nav ul a {
+
+        font-size: 14px;
+        color: #00215B;
+        font-weight: 400;
+        position: relative;
+        font-family: 'Kanit';
+    }
+}
