@@ -38,6 +38,10 @@ body {
   max-width: 1024px;
 }
 
+.content-container {
+  display: flex;
+}
+
 /* ------ Tablet Screen ------*/
 @media (max-width: 1040px) {
   .wrapper {

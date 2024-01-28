@@ -9,6 +9,10 @@ nav .wrapper {
     justify-content: space-between;
 }
 
+nav .wrapper .logo {
+    cursor: pointer;
+}
+
 nav .wrapper .logo .main {
     font-size: 27px;
     font-weight: 500;
@@ -28,10 +32,6 @@ nav .wrapper .logo .main::after {
 
 }
 
-nav .wrapper .logo {
-    cursor: pointer;
-}
-
 nav .wrapper .logo .sub {
     font-size: 19px;
     font-weight: 400;
@@ -42,10 +42,10 @@ nav .wrapper .logo .sub {
 
 nav .wrapper .logo .sub::after {
     top: 15px;
-    right: -4.5px;
-    content: "";
     width: 3px;
+    content: "";
     height: 11px;
+    right: -4.5px;
     position: absolute;
     background: var(--royal-blue);
 }
