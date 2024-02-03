@@ -1,4 +1,68 @@
 #home {
-    height: 100vh;
-    background: lightblue;
+    height: 130vh;
+    position: relative;
+}
+
+#home .header {
+    height: 90vh;
+    position: relative;
+    background: url('../../assets/images/home/home_img_1.png');
+    background-size: cover;
+}
+
+#home .title {
+    color: white;
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 80px;
+    padding-top: 161px;
+    font-family: 'Kanit';
+}
+
+#home .title span {
+    color: white;
+    font-size: 67px;
+    font-weight: 400;
+    font-family: 'Kanit';
+}
+
+#home .subtitle {
+    font-size: 13px;
+    color: #EBECEE;
+    font-weight: 400;
+    line-height: 23px;
+    padding-top: 25px;
+    font-family: 'Lato';
+}
+
+#home .content-container {
+    bottom: -156px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+#home .number-container {
+    width: 210px;
+    height: 156px;
+    line-height: 40px;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+
+#home .number-container .num {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Kanit';
+}
+
+#home .number-container .text {
+    font-size: 15px;
+    color: #EBECEE;
+    font-weight: 400;
+    font-family: 'Kanit';
+}
+
+#about-us {
+    height: 80vh;
 }
