@@ -1,0 +1,30 @@
+.custom-button {
+    gap: 5px;
+    width: 190px;
+    height: 50px;
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.custom-button:hover {
+    gap: 17px;
+    width: 200px;
+}
+
+.custom-button .text {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: 'Kanit';
+}
+
+.custom-button img {
+    width: 11px;
+    height: 11px;
+    margin-top: 3px;
+}

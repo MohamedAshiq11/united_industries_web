@@ -19,6 +19,9 @@ const HeaderSection = () => {
             urna at sem sodales <br />
             venenatis. Mauris efficitur dapibus enim in posuere
           </div>
+          <div className="btn">
+            <SharedComponenet.CustomButton onClick={() => {}} />
+          </div>
           <div className="content-container">
             <div className="secondary-color">
               <HeaderComponenet.NumberContainer

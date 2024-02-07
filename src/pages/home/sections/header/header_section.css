@@ -34,6 +34,10 @@
     font-family: 'Lato';
 }
 
+#header .btn {
+    margin-top: 30px;
+}
+
 #header .content-container {
     display: grid;
     bottom: -156px;
@@ -43,7 +47,7 @@
 }
 
 #header .number-container {
-    width: 210px;
+    width: 235px;
     height: 156px;
     display: flex;
     line-height: 40px;
@@ -73,7 +77,7 @@
 #header .service-info {
     right: 0;
     top: -169px;
-    width: 480px;
+    width: 430px;
     position: absolute;
     background: white;
     padding: 20px 60px 40px 60px;
@@ -84,9 +88,9 @@
 #header .service-info h2 {
     margin: 0;
     padding: 0;
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 33px;
     margin-bottom: 35px;
     font-family: 'Kanit';
     color: var(--secondary-color);
@@ -110,14 +114,35 @@
         grid-template-columns: 1fr;
     }
 
+    #header .number-container {
+        width: 255px;
+    }
+
     #header .service-info {
         top: -99px;
-        width: 490px;
+        width: 440px;
     }
 }
 
 /* ------ Mobile Screen ------*/
 @media (max-width: 720px) {
+    #header .title {
+        font-size: 55px;
+        font-weight: 500;
+        line-height: 60px;
+        padding-top: 161px;
+    }
+
+    #header .title span {
+        font-size: 55px;
+        font-weight: 300;
+    }
+
+    #header .subtitle {
+        line-height: 20px;
+        padding-top: 15px;
+    }
+
     #header .content-container {
         left: 0;
         right: 0;

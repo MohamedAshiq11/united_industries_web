@@ -5,12 +5,12 @@
 
 .service-info-card img {
     width: 61px;
-    height: 62px;
+    height: 57px;
 }
 
 .service-info-card .service-title {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 10px;
     margin-bottom: 10px;
     font-family: 'Kanit';
@@ -18,7 +18,7 @@
 }
 
 .service-info-card .service-subtitle {
-    font-size: 16px;
+    font-size: 14px;
     color: #41444B;
     font-weight: 300;
     line-height: 25px;
