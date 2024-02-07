@@ -1,0 +1,158 @@
+#header {
+    height: 150vh;
+}
+
+#header .header-info {
+    height: 90vh;
+    position: relative;
+    background: url('../../../../assets/images/home/home_img_1.png');
+    background-size: cover;
+}
+
+#header .title {
+    color: white;
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 80px;
+    padding-top: 161px;
+    font-family: 'Kanit';
+}
+
+#header .title span {
+    color: white;
+    font-size: 67px;
+    font-weight: 400;
+    font-family: 'Kanit';
+}
+
+#header .subtitle {
+    font-size: 13px;
+    color: #EBECEE;
+    font-weight: 400;
+    line-height: 23px;
+    padding-top: 25px;
+    font-family: 'Lato';
+}
+
+#header .btn {
+    margin-top: 30px;
+}
+
+#header .content-container {
+    display: grid;
+    bottom: -156px;
+    margin-left: 100px;
+    position: absolute;
+    grid-template-columns: 1fr 1fr;
+}
+
+#header .number-container {
+    width: 235px;
+    height: 156px;
+    display: flex;
+    line-height: 40px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header .number-container .num {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Kanit';
+}
+
+#header .number-container .text {
+    font-size: 15px;
+    color: #EBECEE;
+    font-weight: 400;
+    font-family: 'Kanit';
+}
+
+#header .header-service-info {
+    position: relative;
+}
+
+#header .service-info {
+    right: 0;
+    top: -169px;
+    width: 430px;
+    position: absolute;
+    background: white;
+    padding: 20px 60px 40px 60px;
+    border-top: 7.2px solid var(--royal-blue);
+    box-shadow: 0px 2px 25px 0px rgba(0, 33, 91, 0.2);
+}
+
+#header .service-info h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33px;
+    margin-bottom: 35px;
+    font-family: 'Kanit';
+    color: var(--secondary-color);
+}
+
+#header .service-info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#header .service-info li {
+    margin-bottom: 24px;
+}
+
+/* ------ Tablet Screen ------*/
+@media (max-width: 1040px) {
+    #header .content-container {
+        bottom: -312px;
+        margin-left: 0;
+        grid-template-columns: 1fr;
+    }
+
+    #header .number-container {
+        width: 255px;
+    }
+
+    #header .service-info {
+        top: -99px;
+        width: 440px;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    #header .title {
+        font-size: 55px;
+        font-weight: 500;
+        line-height: 60px;
+        padding-top: 161px;
+    }
+
+    #header .title span {
+        font-size: 55px;
+        font-weight: 300;
+    }
+
+    #header .subtitle {
+        line-height: 20px;
+        padding-top: 15px;
+    }
+
+    #header .content-container {
+        left: 0;
+        right: 0;
+        bottom: -156px;
+        margin-left: 0;
+        flex-direction: row;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #header .service-info {
+        display: none;
+    }
+}
