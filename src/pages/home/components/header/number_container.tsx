@@ -1,4 +1,4 @@
-import "../home.css";
+import "../../sections/header/header_section.css";
 
 interface Props {
   num: string;
@@ -8,8 +8,10 @@ interface Props {
 const NumberContainer = (props: Props) => {
   return (
     <div className="number-container">
-      <div className="num">{props.num}</div>
-      <div className="text">{props.text}</div>
+      <div className="value">
+        <div className="num">{props.num}</div>
+        <div className="text">{props.text}</div>
+      </div>
     </div>
   );
 };
