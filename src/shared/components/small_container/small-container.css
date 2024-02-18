@@ -1,0 +1,14 @@
+.small-container {
+    width: 66px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--royal-blue);
+    transition: 0.3s all ease-in-out;
+}
+
+.small-container:hover {
+    width: 70px;
+    height: 70px;
+}
