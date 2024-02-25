@@ -1,0 +1,55 @@
+.service-info-container {
+    position: relative;
+}
+
+.service-info-container img {
+    z-index: 0;
+    height: 450px;
+    object-fit: cover;
+}
+
+.service-info-container .overlay {
+    z-index: 1;
+    width: 100%;
+    opacity: 0.85;
+    height: 450px;
+    position: absolute;
+    background: var(--secondary-color);
+}
+
+.service-info-container .primary-color {
+    background: var(--primary-color);
+}
+
+.service-info-container .content {
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    position: absolute;
+    padding: 50px 30px 40px 40px;
+}
+
+.service-info-container .content .title {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    margin-bottom: 24px;
+    font-family: 'Kanit';
+}
+
+.service-info-container .content .subtitle {
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 20px;
+    font-family: 'Lato';
+    font-family: 'Kanit';
+}
+
+#about-us .small-container {
+    z-index: 3;
+    top: 120px;
+    left: 66px;
+    position: absolute;
+}

@@ -8,7 +8,10 @@ const Home = () => {
       <Componenet.HeaderSection />
 
       {/* Home Section: About Us Section */}
-      <Componenet.AboutUs />
+      <Componenet.AboutUsSection />
+
+      {/* Home Section: Service Section */}
+      <Componenet.ServiceSection />
     </section>
   );
 };

@@ -1,0 +1,9 @@
+#service {
+    padding: 80px 0;
+}
+
+#service .content-container .service-img-1 {
+    width: 930px;
+    height: 450px;
+    object-fit: cover;
+}
