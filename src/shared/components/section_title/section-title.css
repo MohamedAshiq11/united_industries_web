@@ -5,3 +5,19 @@
     font-family: 'Kanit';
     color: var(--secondary-color);
 }
+
+/* ------ Tablet Screen ------*/
+@media (max-width: 1040px) {
+    .section-title {
+        font-size: 33px;
+        line-height: 40px;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    .section-title {
+        font-size: 30px;
+        line-height: 37px;
+    }
+}

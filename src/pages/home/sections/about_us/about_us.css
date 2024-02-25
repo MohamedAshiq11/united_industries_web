@@ -60,3 +60,68 @@
     left: 66px;
     position: absolute;
 }
+
+/* ------ Tablet Screen ------*/
+@media (max-width: 1040px) {
+    #about-us .about-us-info {
+        padding: 60px 0;
+    }
+
+    #about-us .about-us-info .section-title {
+        margin-bottom: 13px;
+    }
+
+    #about-us .about-us-info .subtitle .common-text {
+        margin-bottom: 13px;
+    }
+
+    #about-us .about-us-images {
+        margin-left: 20px;
+    }
+
+    #about-us .about-us-images .group-img-1 {
+        top: 0;
+        right: 0;
+        width: 270px;
+        height: 270px;
+    }
+
+    #about-us .about-us-images .group-img-2 {
+        left: 0;
+        bottom: 0;
+        width: 220px;
+        height: 327px;
+    }
+
+    #about-us .small-container {
+        top: 120px;
+        left: 33px;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    #about-us {
+        padding: 80px 0;
+    }
+
+    #about-us .about-us-info .section-title {
+        margin-bottom: 11px;
+    }
+
+    #about-us .about-us-info .subtitle .common-text {
+        margin-bottom: 11px;
+    }
+
+    #about-us .content-container {
+        grid-template-columns: 1fr;
+    }
+
+    #about-us .about-us-info {
+        padding: 0;
+    }
+
+    #about-us .about-us-images {
+        display: none;
+    }
+}
