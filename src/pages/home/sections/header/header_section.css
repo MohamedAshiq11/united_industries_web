@@ -126,6 +126,10 @@
 
 /* ------ Mobile Screen ------*/
 @media (max-width: 720px) {
+    #header {
+        height: 110vh;
+    }
+
     #header .title {
         font-size: 55px;
         font-weight: 500;
