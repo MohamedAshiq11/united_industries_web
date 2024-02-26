@@ -15,13 +15,14 @@ const ServiceInfoContainer = (props: Props) => {
     <div className="service-info-container">
       <div className={`overlay ${props.isEven ? "primary-color" : ""}`}></div>
       <img src={props.image} alt="" />
-      <div className="content-container">
-        <div className="content">
-          <div className="title">{props.title}</div>
-          <div className="subtitle">{props.subtitle}</div>
-        </div>
-        <SharedComponenet.SmallContainer image={globalIcon.play} />
+      <div className="content">
+        <div className="title">{props.title}</div>
+        <div className="subtitle">{props.subtitle}</div>
       </div>
+      <SharedComponenet.SmallContainer
+        image={globalIcon.whiteArrowRight}
+        className={props.isEven ? null : "primary-color"}
+      />
     </div>
   );
 };

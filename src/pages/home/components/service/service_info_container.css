@@ -1,4 +1,5 @@
 .service-info-container {
+    height: 450px;
     position: relative;
 }
 
@@ -47,9 +48,20 @@
     font-family: 'Kanit';
 }
 
-#about-us .small-container {
+.service-info-container .small-container {
     z-index: 3;
-    top: 120px;
-    left: 66px;
+    width: 40px;
+    right: 30px;
+    height: 40px;
+    bottom: 30px;
     position: absolute;
+}
+
+.service-info-container .small-container img {
+    height: 10px;
+}
+
+.service-info-container .small-container:hover {
+    width: 44px;
+    height: 44px;
 }
