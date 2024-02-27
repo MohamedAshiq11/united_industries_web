@@ -12,6 +12,9 @@ const Home = () => {
 
       {/* Home Section: Service Section */}
       <Componenet.ServiceSection />
+
+      {/* Home Section: Our Projects Section */}
+      <Componenet.OurProjectsSection />
     </section>
   );
 };
