@@ -8,6 +8,10 @@
     transition: 0.3s all ease-in-out;
 }
 
+.small-container img {
+    height: 30px;
+}
+
 .small-container:hover {
     width: 70px;
     height: 70px;

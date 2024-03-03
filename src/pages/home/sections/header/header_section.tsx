@@ -44,21 +44,21 @@ const HeaderSection = () => {
             <h2>We Construct and Manage Places and Infrastructures</h2>
             <ul>
               <li>
-                <SharedComponenet.ServiceInfoContainer
+                <SharedComponenet.ServiceInfoCard
                   image={HomeIcons.homeService1}
                   title="General Contract"
                   subtitle="Quisque condimentum erat ac orci blandit, in sollicitudin tellus vestibulum"
                 />
               </li>
               <li>
-                <SharedComponenet.ServiceInfoContainer
+                <SharedComponenet.ServiceInfoCard
                   image={HomeIcons.homeService2}
                   title="General Contract"
                   subtitle="Quisque condimentum erat ac orci blandit, in sollicitudin tellus vestibulum"
                 />
               </li>
               <li>
-                <SharedComponenet.ServiceInfoContainer
+                <SharedComponenet.ServiceInfoCard
                   image={HomeIcons.homeService3}
                   title="General Contract"
                   subtitle="Quisque condimentum erat ac orci blandit, in sollicitudin tellus vestibulum"

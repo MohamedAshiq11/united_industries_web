@@ -1,0 +1,67 @@
+.service-info-container {
+    height: 450px;
+    position: relative;
+}
+
+.service-info-container img {
+    z-index: 0;
+    height: 450px;
+    object-fit: cover;
+}
+
+.service-info-container .overlay {
+    z-index: 1;
+    width: 100%;
+    opacity: 0.85;
+    height: 450px;
+    position: absolute;
+    background: var(--secondary-color);
+}
+
+.service-info-container .primary-color {
+    background: var(--primary-color);
+}
+
+.service-info-container .content {
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    position: absolute;
+    padding: 50px 30px 40px 40px;
+}
+
+.service-info-container .content .title {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    margin-bottom: 24px;
+    font-family: 'Kanit';
+}
+
+.service-info-container .content .subtitle {
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 20px;
+    font-family: 'Lato';
+    font-family: 'Kanit';
+}
+
+.service-info-container .small-container {
+    z-index: 3;
+    width: 40px;
+    right: 30px;
+    height: 40px;
+    bottom: 30px;
+    position: absolute;
+}
+
+.service-info-container .small-container img {
+    height: 10px;
+}
+
+.service-info-container .small-container:hover {
+    width: 44px;
+    height: 44px;
+}
