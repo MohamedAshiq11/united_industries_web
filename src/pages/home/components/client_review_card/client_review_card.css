@@ -1,0 +1,121 @@
+.client-review-card {
+    gap: 37px;
+    display: flex;
+    padding: 0 25px;
+    align-items: center;
+}
+
+.client-review-card .client-image {
+    width: 270px;
+    height: 340px;
+    border: 10px solid white;
+    box-shadow: 0px 2px 25px 0px rgba(0, 33, 91, 0.21);
+}
+
+.client-review-card .client-review-info {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.client-review-card .client-review-info .small-container {
+    margin-bottom: 22px;
+}
+
+.client-review-card .client-review-info .small-container:hover {
+    width: 66px;
+    height: 66px;
+}
+
+.client-review-card .client-review-info .review-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #41444B;
+    line-height: 25px;
+    font-family: 'Lato';
+    margin-bottom: 13px;
+}
+
+.client-review-card .client-review-info .client-name {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: 'Kanit';
+    color: var(--secondary-color);
+}
+
+.client-review-card .client-review-info .client-designation {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    font-family: 'Kanit';
+    color: var(--royal-blue);
+}
+
+/* ------ Tablet Screen ------*/
+@media (max-width: 1040px) {
+    .client-review-card .client-image {
+        width: 250px;
+        height: 300px;
+    }
+
+    .client-review-card .client-review-info .small-container {
+        width: 55px;
+        height: 55px;
+        margin-bottom: 20px;
+    }
+
+    .client-review-card .client-review-info .small-container:hover {
+        width: 55px;
+        height: 55px;
+    }
+
+    .client-review-card .client-review-info .small-container img {
+        height: 25px;
+    }
+
+    .client-review-card .client-review-info .review-text {
+        font-size: 13px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    .client-review-card {
+        gap: 20px;
+        padding: 0;
+        align-items: start;
+    }
+
+    .client-review-card .client-image {
+        width: 150px;
+        height: 150px;
+        margin-top: 10%;
+        margin-left: 5%;
+        border-radius: 100%;
+    }
+
+    .client-review-card .client-review-info .small-container {
+        width: 44px;
+        height: 44px;
+        margin-bottom: 15px;
+    }
+
+    .client-review-card .client-review-info .small-container:hover {
+        width: 44px;
+        height: 44px;
+    }
+
+    .client-review-card .client-review-info .small-container img {
+        height: 17px;
+    }
+
+    .client-review-card .client-review-info .review-text {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 7px;
+    }
+}

@@ -10,6 +10,10 @@
     justify-content: center;
 }
 
+#home-our-projects .content-container .section-title{
+margin-bottom: 27px;    
+}
+
 #home-our-projects .project-image-card {
     gap: 10px;
     display: grid;
