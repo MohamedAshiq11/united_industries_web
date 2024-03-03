@@ -16,6 +16,9 @@ const Home = () => {
       {/* Home Section: Our Projects Section */}
       <Componenet.OurProjectsSection />
 
+      {/* Home Section: Our Projects Section */}
+      <Componenet.HomeMapSection />
+
       {/* Home Section: Client Review Section */}
       <Componenet.ClientReviewSection />
     </section>
