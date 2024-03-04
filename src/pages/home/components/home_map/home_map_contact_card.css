@@ -1,0 +1,47 @@
+.home-map-contact-card {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-map-contact-card img {
+    height: 50px;
+    padding: 11px;
+    background: var(--primary-color);
+}
+
+.home-map-contact-card img.blue {
+    background: var(--royal-blue);
+}
+
+.home-map-contact-card .label {
+    font-size: 11px;
+    font-weight: 200;
+    line-height: 15px;
+    margin-bottom: 7px;
+    font-family: 'Kanit';
+    text-transform: uppercase;
+}
+
+.home-map-contact-card .text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Kanit';
+}
+
+/* ------ Tablet Screen ------*/
+@media (max-width: 1040px) {
+    .home-map-contact-card .text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    .wrapper {
+        padding: 0 32px;
+    }
+}

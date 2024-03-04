@@ -1,0 +1,51 @@
+.custom-sm-info-card {
+    width: 350px;
+    padding: 50px 40px;
+    background: white;
+    border-top: 7px solid var(--primary-color);
+    box-shadow: 0px 2px 25px 0px rgba(0, 33, 91, 0.2);
+}
+
+.custom-sm-info-card .label {
+    font-size: 11px;
+    color: #41444B;
+    font-weight: 300;
+    line-height: 11px;
+    margin-bottom: 7px;
+    font-family: 'Kanit';
+    text-transform: uppercase;
+}
+
+.custom-sm-info-card .text {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Kanit';
+    color: var(--secondary-color);
+}
+
+/* ------ Tablet Screen ------*/
+@media (max-width: 1040px) {
+    .custom-sm-info-card {
+        width: 250px;
+        padding: 40px 30px;
+    }
+
+    .custom-sm-info-card .label {
+        font-size: 11px;
+        color: #41444B;
+        font-weight: 300;
+        line-height: 11px;
+        margin-bottom: 7px;
+        font-family: 'Kanit';
+        text-transform: uppercase;
+    }
+
+    .custom-sm-info-card .text {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+        font-family: 'Kanit';
+        color: var(--secondary-color);
+    }
+}

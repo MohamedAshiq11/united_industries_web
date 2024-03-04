@@ -11,3 +11,55 @@
     height: 60vh;
     position: absolute;
 }
+
+#home-map .home-map-info {
+    bottom: 0;
+    gap: 50px;
+    z-index: 11;
+    display: flex;
+    align-items: end;
+    position: absolute;
+    justify-content: center;
+}
+
+#home-map .home-map-info .home-map-contact-info {
+    gap: 47px;
+    display: flex;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ------ Tablet Screen ------*/
+@media (max-width: 1040px) {
+    #home-map .home-map-info {
+        gap: 30px;
+    }
+
+    #home-map .home-map-info .home-map-contact-info {
+        gap: 30px;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    #home-map {
+        height: 72vh;
+    }
+
+    #home-map .home-map-info {
+        gap: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #home-map .home-map-info .custom-sm-info-card {
+        display: none;
+    }
+
+    #home-map .home-map-info .home-map-contact-info {
+        padding: 0;
+        align-items: end;
+        justify-content: end;
+    }
+}
