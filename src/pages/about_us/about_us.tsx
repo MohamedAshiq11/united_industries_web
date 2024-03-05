@@ -1,7 +1,8 @@
 import "./about_us.css";
+import Sections from "./sections/index";
 
 const AboutUs = () => {
-  return <div>AboutUs</div>;
+  return <section id="about_us">AboutUs</section>;
 };
 
-export default AboutUs
+export default AboutUs;
