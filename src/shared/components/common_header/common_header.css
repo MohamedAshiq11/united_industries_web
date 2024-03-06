@@ -1,0 +1,41 @@
+#common-header {
+    width: 100%;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+#common-header .common-header-image {
+    top: 0;
+    width: 100%;
+    height: 45vh;
+    position: absolute;
+}
+
+#common-header .wrapper.common-header-title {
+    height: 45vh;
+    position: relative;
+}
+
+#common-header .title {
+    left: 0;
+    top: 50%;
+    color: white;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 64px;
+    position: absolute;
+    font-family: 'Kanit';
+    transform: translateY(-50%);
+}
+
+#common-header .wrapper.common-header-contact-card {
+    top: 0;
+    height: 12vh;
+    position: relative;
+}
+
+#common-header .custom-sm-info-card {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}

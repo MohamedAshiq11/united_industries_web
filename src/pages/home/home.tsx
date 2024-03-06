@@ -1,4 +1,3 @@
-import "./home.css";
 import Componenet from "./sections/index";
 
 const Home = () => {
