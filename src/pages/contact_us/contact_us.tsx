@@ -4,7 +4,7 @@ import Sections from "./sections/index";
 const ContactUs = () => {
   return (
     <section id="contact-us">
-      {/* Home Section: Header Section */}
+      {/* Contact Us Section: Header Section */}
       <Sections.ContactUsHeaderSection />
     </section>
   );
