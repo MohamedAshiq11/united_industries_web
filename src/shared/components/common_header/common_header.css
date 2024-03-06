@@ -39,3 +39,18 @@
     bottom: 0;
     position: absolute;
 }
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    #common-header .common-header-image {
+        height: 35vh;
+    }
+
+    #common-header .wrapper.common-header-title {
+        height: 35vh;
+    }
+
+    #common-header .wrapper {
+        margin: 0 37px;
+    }
+}
