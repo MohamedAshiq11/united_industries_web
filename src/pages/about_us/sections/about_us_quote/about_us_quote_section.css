@@ -1,0 +1,62 @@
+#about-us-quote {
+    display: flex;
+    height: 78.8vh;
+    padding: 80px 0;
+    align-items: center;
+    justify-content: center;
+    background: url('src/assets/images/about_us/about-us-quote.png');
+    background-size: cover;
+}
+
+#about-us-quote .wrapper .about-us-quote-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-us-quote .wrapper .about-us-quote-content .heading {
+    color: white;
+    font-size: 27px;
+    font-weight: 400;
+    font-family: 'Lato';
+    margin-bottom: 5px;
+}
+
+#about-us-quote .wrapper .about-us-quote-content .title {
+    color: white;
+    font-size: 37px;
+    font-weight: 600;
+    font-family: 'Kanit';
+    margin-bottom: 10px;
+}
+
+#about-us-quote .wrapper .about-us-quote-content .description {
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 0 191px;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Lato';
+    margin-bottom: 15px;
+}
+
+/* ------ Tablet Screen ------*/
+@media (max-width: 1040px) {
+    #about-us-quote {
+        height: 70vh;
+    }
+
+    #about-us-quote .wrapper .about-us-quote-content .description {
+        padding: 0 66px;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    #about-us-quote .wrapper .about-us-quote-content .description {
+        padding: 0;
+    }
+}

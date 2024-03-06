@@ -1,0 +1,127 @@
+#about-us-info {
+    padding: 80px 0;
+}
+
+#about-us-info .content-container {
+    gap: 100px;
+}
+
+#about-us-info .about-us-info-img {
+    max-height: 465px;
+    position: relative;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
+}
+
+#about-us-info .about-us-info-img img {
+    max-height: 465px;
+    object-fit: cover;
+}
+
+#about-us-info .about-us-info-img .about-us-info-exp-year {
+    left: 0;
+    bottom: 0;
+    padding: 11px 21px;
+    position: absolute;
+    background: var(--secondary-color);
+}
+
+#about-us-info .about-us-info-img .about-us-info-exp-year .year {
+    color: white;
+    font-size: 65px;
+    font-weight: 900;
+    font-family: 'Kanit';
+}
+
+#about-us-info .about-us-info-img .about-us-info-exp-year .text {
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Kanit';
+    text-transform: uppercase;
+}
+
+#about-us-info .about-us-info-content {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#about-us-info .about-us-info-content .about-section-title {
+    padding-bottom: 15px;
+}
+
+#about-us-info .about-us-info-content .title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    font-family: 'Kanit';
+}
+
+#about-us-info .about-us-info-content-card {
+    padding: 20px 111px 20px 40px;
+    background: #F9F9F9;
+}
+
+#about-us-info .about-us-info-content-card .description {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'Lato';
+    padding-bottom: 27px;
+}
+
+#about-us-info .about-us-info-content-card .name {
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'Kanit';
+}
+
+#about-us-info .about-us-info-content-card .name span {
+    font-size: 19px;
+    font-weight: 300;
+    font-family: 'Kanit';
+}
+
+/* ------ Tablet Screen ------*/
+@media (max-width: 1040px) {
+    #about-us-info .content-container {
+        gap: 55px;
+    }
+
+    #about-us-info .about-us-info-content .about-section-title {
+        padding-bottom: 10px;
+    }
+
+    #about-us-info .about-us-info-content .title {
+        font-size: 33px;
+        line-height: 40px;
+    }
+
+    #about-us-info .about-us-info-content-card {
+        padding: 20px 40px 20px 40px;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    #about-us-info .content-container {
+        gap: 33px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #about-us-info .about-us-info-content {
+        gap: 33px;
+    }
+
+    #about-us-info .about-us-info-content .about-section-title {
+        padding-bottom: 10px;
+    }
+
+    #about-us-info .about-us-info-content-card {
+        padding: 20px;
+        padding-bottom: 22px;
+    }
+}
