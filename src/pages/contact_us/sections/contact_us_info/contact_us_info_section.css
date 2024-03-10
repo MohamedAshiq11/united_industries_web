@@ -39,12 +39,12 @@
         flex-direction: column;
     }
 
-    .custom-sm-info-card {
+    #contact-us-info .custom-sm-info-card {
         width: 250px;
         padding: 15px 27px;
     }
 
-    .custom-sm-info-card .text {
+    #contact-us-info .custom-sm-info-card .text {
         font-size: 17px;
         line-height: 20px;
     }

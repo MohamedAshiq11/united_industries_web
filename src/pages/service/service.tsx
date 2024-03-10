@@ -1,9 +1,15 @@
-import './service.css'
+import Sections from "./sections/index";
 
 const Service = () => {
   return (
-    <div>Service</div>
-  )
-}
+    <section id="service">
+      {/* Service Section: Header Section */}
+      <Sections.ServiceHeaderSection />
 
-export default Service
+      {/* Service Section: Service List Section */}
+      <Sections.ServiceListSection />
+    </section>
+  );
+};
+
+export default Service;
