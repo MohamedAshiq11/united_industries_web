@@ -1,4 +1,3 @@
-import "./contact_us_map_section.css";
 import SharedComponents from "../../../../shared/components/index";
 
 const ContactUsMapSection = () => {
