@@ -1,0 +1,42 @@
+#countact-us-text-field {
+    padding: 60px 0;
+}
+
+#countact-us-text-field .content-container {
+    gap: 44px;
+    margin-bottom: 33px;
+}
+
+#countact-us-text-field .text-field {
+    padding: 20px 31px;
+}
+
+#countact-us-text-field .multiline-text-field {
+    resize: none;
+    min-height: 153px;
+    padding: 13px 31px;
+    margin-bottom: 25px;
+}
+
+#countact-us-text-field .text-field,
+.multiline-text-field {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.14);
+}
+
+#countact-us-text-field .text-field::placeholder,
+.multiline-text-field::placeholder {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 37px;
+    font-family: 'Kanit';
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    #countact-us-text-field {
+        padding-bottom: 60px;
+    }
+}

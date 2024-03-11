@@ -4,7 +4,7 @@ import homeImage from "../../../../assets/images/home/index";
 
 const ServiceSection = () => {
   return (
-    <section id="service">
+    <section id="home-service">
       <div className="content-container">
         <img src={homeImage.serviceImg1} alt="" className="service-img-1" />
         <ServiceComponenet.ServiceInfoContainer

@@ -1,0 +1,12 @@
+.home-google-map {
+    width: 100%;
+    border: none;
+    height: 450px;
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    .home-google-map {
+        height: 350px;
+    }
+}

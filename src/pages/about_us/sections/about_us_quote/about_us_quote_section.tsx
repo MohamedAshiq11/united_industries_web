@@ -1,4 +1,5 @@
 import "./about_us_quote_section.css";
+import AboutUsComponents from "../../components/index";
 import SharedComponents from "../../../../shared/components/index";
 
 const AboutUsQuoteSection = () => {
@@ -13,8 +14,28 @@ const AboutUsQuoteSection = () => {
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s,
           </div>
-          <SharedComponents.CustomButton text="Appointment" onClick={() => {}} />
+          <SharedComponents.CustomButton
+            text="Appointment"
+            onClick={() => {}}
+          />
         </div>
+      </div>
+      <div className="wrapper about-us-quote-cards">
+        <AboutUsComponents.AboutUsQuoteCard
+          number={1}
+          title="Kind Consulation"
+          subtitle="Etiam ac leo at quam aliquet"
+        />
+        <AboutUsComponents.AboutUsQuoteCard
+          number={2}
+          title="Kind Consulation"
+          subtitle="Etiam ac leo at quam aliquet"
+        />
+        <AboutUsComponents.AboutUsQuoteCard
+          number={3}
+          title="Kind Consulation"
+          subtitle="Etiam ac leo at quam aliquet"
+        />
       </div>
     </section>
   );

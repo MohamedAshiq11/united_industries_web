@@ -1,0 +1,67 @@
+.about-us-quote-card {
+    background: white;
+    padding: 22px 55px 22px 22px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.14);
+}
+
+.about-us-quote-card .content-container {
+    gap: 20px;
+}
+
+.about-us-quote-card .number {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 5px 14px;
+    font-family: 'Kanit';
+    background: var(--primary-color);
+}
+
+.about-us-quote-card .content {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about-us-quote-card .title {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Kanit';
+    color: var(--secondary-color);
+}
+
+.about-us-quote-card .subtitle {
+    opacity: 0.5;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: 'Kanit';
+}
+
+/* ------ Tablet Screen ------*/
+@media (max-width: 1040px) {
+    .about-us-quote-card {
+        padding: 11px;
+    }
+
+    .about-us-quote-card .content-container {
+        gap: 10px;
+    }
+
+    .about-us-quote-card .number {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 11px 11px;
+    }
+
+    .about-us-quote-card .title {
+        font-size: 14px;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    #about-us-quote .wrapper .about-us-quote-content .description {
+        padding: 0;
+    }
+}
