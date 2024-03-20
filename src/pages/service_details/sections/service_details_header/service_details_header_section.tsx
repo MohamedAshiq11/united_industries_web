@@ -10,7 +10,6 @@ const ServiceDetailsHeaderSection = (props: Props) => {
     <section id="service-details-header">
       <SharedComponents.CommonHeader
         title={props.title}
-        showContactCard={true}
         image={ServiceImages.serviceDetailsHeader}
       />
     </section>

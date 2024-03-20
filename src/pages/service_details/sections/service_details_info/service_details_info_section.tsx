@@ -50,6 +50,18 @@ const ServiceDetailsInfoSection = () => {
               survived not only five centuries, but also the leap into
               electronic typesetting, remaining essentially unchanged.
             </div>
+            <div className="project-info-heading">
+              Project <span>Info</span>
+            </div>
+            <div className="project-info-content">
+              Client: <span>John Doe</span>
+            </div>
+            <div className="project-info-content">
+              Category: <span>Construction Business</span>
+            </div>
+            <div className="project-info-content">
+              Completed on: <span>20 January 2022</span>
+            </div>
           </div>
         </div>
       </div>
