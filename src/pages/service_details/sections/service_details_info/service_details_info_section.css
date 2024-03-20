@@ -1,0 +1,128 @@
+#service-details-info {
+    padding: 80px 0;
+}
+
+#service-details-info .content-container {
+    gap: 70px;
+}
+
+#service-details-info .full-description {
+    width: 60%;
+}
+
+#service-details-info .full-description .main-img {
+    width: 100%;
+    max-height: 555px;
+    border-radius: 12px;
+}
+
+#service-details-info .full-description .text {
+    margin: 33px 0;
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 23px;
+    text-align: justify;
+    font-family: 'Kanit';
+}
+
+#service-details-info .full-description .small-img {
+    gap: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#service-details-info .full-description .small-img img {
+    width: 100%;
+    max-height: 285px;
+}
+
+#service-details-info .short-description {
+    width: 40%;
+}
+
+#service-details-info .short-description .heading {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 27px;
+    font-family: 'Kanit';
+}
+
+#service-details-info .short-description .description {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 23px;
+    font-family: 'Lato';
+    margin-bottom: 27px;
+}
+
+#service-details-info .short-description .project-info-heading {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 11px;
+    font-family: 'Kanit';
+}
+
+#service-details-info .short-description .project-info-content {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family: 'Kanit';
+}
+
+#service-details-info .short-description .project-info-content span {
+    font-size: 13px;
+    font-weight: 200;
+    margin-left: 15px;
+    font-family: 'Kanit';
+}
+
+/* ------ Tablet Screen ------*/
+@media (max-width: 1040px) {
+    #service-details-info .content-container {
+        gap: 50px;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 720px) {
+    #service-details-info .content-container {
+        gap: 40px;
+    }
+
+    #service-details-info .full-description .text {
+        margin: 22px 0;
+        font-size: 14px;
+    }
+
+    #service-details-info .full-description .small-img img {
+        width: 100%;
+        max-height: 285px;
+    }
+
+    #service-details-info .short-description .heading {
+        font-size: 20px;
+        margin-bottom: 17px;
+    }
+
+    #service-details-info .short-description .description {
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+
+    #service-details-info .short-description .project-info-heading {
+        font-size: 20px;
+        margin-bottom: 11px;
+    }
+
+    #service-details-info .short-description .project-info-content {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    #service-details-info .short-description .project-info-content span {
+        font-size: 12px;
+        margin-left: 15px;
+    }
+}

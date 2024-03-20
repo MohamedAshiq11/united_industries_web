@@ -1,10 +1,10 @@
 import ServiceImages from "../../../../assets/images/service/index";
-import SharedComponenets from "../../../../shared/components/index";
+import SharedComponents from "../../../../shared/components/index";
 
 const ServiceHeaderSection = () => {
   return (
     <section id="service-header">
-      <SharedComponenets.CommonHeader
+      <SharedComponents.CommonHeader
         title="Services"
         showContactCard={true}
         image={ServiceImages.serviceHeader}
