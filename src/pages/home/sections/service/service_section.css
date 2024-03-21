@@ -3,7 +3,41 @@
 }
 
 #home-service .content-container .service-img-1 {
+    min-width: 22%;
     max-width: 100%;
     max-height: 450px;
     object-fit: cover;
+}
+
+/* ------ Tablet Screen ------*/
+@media (max-width: 1040px) {
+    #home-service {
+        padding: 50px 0;
+    }
+
+    #home-service .content-container .service-img-1 {
+        min-width: 11%;
+        max-width: 100%;
+        max-height: 400px;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 888px) {
+    #home-service .content-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    #home-service .content-container .service-img-1 {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 600px) {
+    #home-service .content-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
 }

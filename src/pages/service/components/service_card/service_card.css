@@ -111,3 +111,11 @@
         font-size: 14px;
     }
 }
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 500px) {
+    #service-card .service-info {
+        gap: 11px;
+        padding: 30px;
+    }
+}
