@@ -44,12 +44,17 @@
 /* ------ Mobile Screen ------*/
 @media (max-width: 720px) {
     #home-map {
-        height: 72vh;
+        height: 75vh;
+    }
+
+    #home-map .wrapper {
+        padding: 0;
     }
 
     #home-map .home-map-info {
-        gap: 0;
+        gap: 30px;
         width: 100%;
+        align-items: center;
         justify-content: center;
     }
 
@@ -61,5 +66,20 @@
         padding: 0;
         align-items: end;
         justify-content: end;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 433px) {
+    #home-map {
+        height: 90vh;
+    }
+
+    #home-map .home-map-info .home-map-contact-info {
+        gap: 11px;
+        margin: 0;
+        padding: 0;
+        align-items: start;
+        flex-direction: column;
     }
 }
