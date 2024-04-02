@@ -160,3 +160,52 @@
         display: none;
     }
 }
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 520px) {
+    #header {
+        height: 131vh;
+    }
+
+    #header .title {
+        font-size: 33px;
+        line-height: 33px;
+        padding-top: 141px;
+    }
+
+    #header .title span {
+        font-size: 33px;
+    }
+
+    #header .subtitle {
+        line-height: 17px;
+        padding-top: 15px;
+    }
+
+    #header .content-container {
+        bottom: -312px;
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 400px) {
+    #header .title {
+        font-size: 33px;
+        line-height: 33px;
+        padding-top: 77px;
+    }
+
+    #header .title span {
+        font-size: 33px;
+    }
+
+    #header .subtitle {
+        line-height: 17px;
+        padding-top: 15px;
+    }
+
+    #header .content-container {
+        bottom: -312px;
+    }
+}
