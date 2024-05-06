@@ -72,7 +72,7 @@
 /* ------ Mobile Screen ------*/
 @media (max-width: 433px) {
     #home-map {
-        height: 90vh;
+        height: 85vh;
     }
 
     #home-map .home-map-info .home-map-contact-info {
