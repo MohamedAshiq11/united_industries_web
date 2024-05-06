@@ -18,7 +18,7 @@ const ServiceCard = (props: Props) => {
           <div className="heading">{props.heading}</div>
           <div className="description">{props.description}</div>
           <div className="service-btn" onClick={props.onCllick}>
-            Learn more
+            <p>Learn more</p>
             <img src={globalIcons.whiteArrowRight} alt="" />
           </div>
         </div>

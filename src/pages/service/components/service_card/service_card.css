@@ -113,9 +113,59 @@
 }
 
 /* ------ Mobile Screen ------*/
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     #service-card .service-info {
         gap: 11px;
         padding: 30px;
+    }
+
+    #service-card .service-info .heading {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    #service-card .service-info .description {
+        font-size: 11px;
+        max-height: 11em;
+        overflow: hidden;
+        line-height: 20px;
+        text-overflow: ellipsis;
+    }
+
+    #service-card .service-info .service-btn {
+        padding: 17px 0;
+        font-size: 14px;
+        max-width: 151px;
+    }
+}
+
+/* ------ Mobile Screen ------*/
+@media (max-width: 450px) {
+    #service-card .service-info {
+        gap: 11px;
+        padding: 30px;
+    }
+
+    #service-card .service-info .heading {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    #service-card .service-info .description {
+        font-size: 11px;
+        max-height: 7em;
+        overflow: hidden;
+        line-height: 20px;
+        text-overflow: ellipsis;
+    }
+
+    #service-card .service-info .service-btn {
+        padding: 17px 0;
+        font-size: 14px;
+        max-width: 44px;
+    }
+
+    #service-card .service-info .service-btn p {
+        display: none;
     }
 }
